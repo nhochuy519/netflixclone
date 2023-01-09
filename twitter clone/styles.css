@@ -1,0 +1,49 @@
+@import "https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 3000px;
+}
+html {
+    font-size: 10px;
+    font-family: 'Poppins',sans-serif;
+}
+
+#Container {
+    display: flex;
+    max-width: 1265px;
+    margin: auto;
+}
+
+header {
+    flex: 1 0 22%;
+    position: sticky;
+    height: 100%;
+    top: 0;
+}
+
+main {
+    flex: 1 0 78%;
+    background-color: lightcoral;
+    display: flex;
+
+
+}
+
+#tweet-post {
+    flex: 50%;
+    background-color: red;
+}
+#tweet-trending {
+    flex: 50%;
+    background-color: blue;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav a {
+    display: flex;
+    font-size: 2rem;
+    padding: 11px;
+    width: fit-content;
+    align-items: center;
+    border-radius: 999px;
+    color: black;
+}
+nav a:first-child i {
+    font-size: 2.4rem;
+    color: rgb(29, 155, 240);;
+}
+nav a span {
+    margin: 0 15px 0 19px;
+}
+nav a i {
+    width: 25px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+
+@media screen and (max-width:1290px) {
+    .header {
+        width: 100px;
+        display: flex;
+        
+        
+    }
+    nav a span {
+        display: none;
+    }
+    
+    
+}
